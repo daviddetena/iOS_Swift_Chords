@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5910EA281E50FAEC007E568C /* GuitarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910EA271E50FAEC007E568C /* GuitarViewController.swift */; };
 		5957827D1E50E08B002C9332 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5957827C1E50E08B002C9332 /* AppDelegate.swift */; };
 		5957827F1E50E08B002C9332 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5957827E1E50E08B002C9332 /* ViewController.swift */; };
 		595782821E50E08B002C9332 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595782801E50E08B002C9332 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5910EA271E50FAEC007E568C /* GuitarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuitarViewController.swift; sourceTree = "<group>"; };
 		595782791E50E08B002C9332 /* Chords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5957827C1E50E08B002C9332 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5957827E1E50E08B002C9332 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				595782831E50E08B002C9332 /* Assets.xcassets */,
 				595782851E50E08B002C9332 /* LaunchScreen.storyboard */,
 				595782881E50E08B002C9332 /* Info.plist */,
+				5910EA271E50FAEC007E568C /* GuitarViewController.swift */,
 			);
 			path = Chords;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5957827F1E50E08B002C9332 /* ViewController.swift in Sources */,
+				5910EA281E50FAEC007E568C /* GuitarViewController.swift in Sources */,
 				5957827D1E50E08B002C9332 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +304,7 @@
 				5957828D1E50E08B002C9332 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
