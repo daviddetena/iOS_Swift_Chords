@@ -1,5 +1,5 @@
 //
-//  GuitarViewController.swift
+//  PianoViewController.swift
 //  Chords
 //
 //  Created by David de Tena on 12/02/2017.
@@ -8,10 +8,10 @@
 
 import UIKit
 
-class GuitarViewController: UIViewController {
+class PianoViewController: UIViewController {
 
     // MARK: - Properties
-    @IBOutlet weak var imgGuitarChord: UIImageView!
+    @IBOutlet weak var imgPianoChord: UIImageView!
     @IBOutlet weak var labelChordName: UILabel!
     
     // MARK: - VC lifecycle
@@ -29,38 +29,37 @@ class GuitarViewController: UIViewController {
         labelChordName.text = sender.titleLabel?.text
         setChordImage(sender.tag)
     }
-
     
     // MARK: - Utils
     func setChordImage(_ tag: Int){
         
         switch tag {
         case 1:
-            imgGuitarChord.image = UIImage(named: "img_g_do")
+            imgPianoChord.image = UIImage(named: "img_p_do")
         case 2:
-            imgGuitarChord.image = UIImage(named: "img_g_re")
+            imgPianoChord.image = UIImage(named: "img_p_re")
         case 3:
-            imgGuitarChord.image = UIImage(named: "img_g_rem")
+            imgPianoChord.image = UIImage(named: "img_p_rem")
         case 4:
-            imgGuitarChord.image = UIImage(named: "img_g_mi")
+            imgPianoChord.image = UIImage(named: "img_p_mi")
         case 5:
-            imgGuitarChord.image = UIImage(named: "img_g_mim")
+            imgPianoChord.image = UIImage(named: "img_p_mim")
         case 6:
-            imgGuitarChord.image = UIImage(named: "img_g_fa")
+            imgPianoChord.image = UIImage(named: "img_p_fa")
         case 7:
-            imgGuitarChord.image = UIImage(named: "img_g_fasm")
+            imgPianoChord.image = UIImage(named: "img_p_fasm")
         case 8:
-            imgGuitarChord.image = UIImage(named: "img_g_sol")
+            imgPianoChord.image = UIImage(named: "img_p_sol")
         case 9:
-            imgGuitarChord.image = UIImage(named: "img_g_la")
+            imgPianoChord.image = UIImage(named: "img_p_la")
         case 10:
-            imgGuitarChord.image = UIImage(named: "img_g_lam")
+            imgPianoChord.image = UIImage(named: "img_p_lam")
         case 11:
-            imgGuitarChord.image = UIImage(named: "img_g_si")
+            imgPianoChord.image = UIImage(named: "img_p_si")
         case 12:
-            imgGuitarChord.image = UIImage(named: "img_g_sim")
+            imgPianoChord.image = UIImage(named: "img_p_sim")
         default:
-            imgGuitarChord.image = UIImage(named: "img_mastil")
+            imgPianoChord.image = UIImage(named: "img_piano")
         }
     }
 }
